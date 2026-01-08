@@ -1,3 +1,4 @@
+using ePizza.Infrastructure; 
 
 namespace ePizza.API
 {
@@ -11,6 +12,10 @@ namespace ePizza.API
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            var connectionString = builder.Configuration.GetConnectionString("DatabaseConnection")
+                    ?? throw new InvalidOperationException("Database connection string is missing.");
+
+            builder.Services.AddInfrastructure(connectionString);
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 

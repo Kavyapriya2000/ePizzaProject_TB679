@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.API", "ePizza.API\eP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{12684E8F-0CA3-4E75-A968-DD257E062A74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizza.Infrastructure", "ePizza.Infrastructure\ePizza.Infrastructure.csproj", "{669C5877-D522-4824-8D30-5691CD6B0615}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F13A59E5-3848-4558-8A51-A355FC6F6894}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13A59E5-3848-4558-8A51-A355FC6F6894}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13A59E5-3848-4558-8A51-A355FC6F6894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669C5877-D522-4824-8D30-5691CD6B0615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669C5877-D522-4824-8D30-5691CD6B0615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669C5877-D522-4824-8D30-5691CD6B0615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669C5877-D522-4824-8D30-5691CD6B0615}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{ACA8F66A-00AB-4539-9060-107A91AE8CFB} = {B095220A-0DA4-4F31-AEA0-CFCFBBFDF8D3}
 		{F13A59E5-3848-4558-8A51-A355FC6F6894} = {ACA8F66A-00AB-4539-9060-107A91AE8CFB}
 		{12684E8F-0CA3-4E75-A968-DD257E062A74} = {B095220A-0DA4-4F31-AEA0-CFCFBBFDF8D3}
+		{669C5877-D522-4824-8D30-5691CD6B0615} = {12684E8F-0CA3-4E75-A968-DD257E062A74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3EEC0DA-B6CF-4B9D-959D-862B9B20D2C1}
